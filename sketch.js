@@ -86,7 +86,7 @@ function draw() {
   packageSprite.y= helicopterSprite.position.y 
   }
   if(keyDown(LEFT_ARROW)){
-	helicopterSprite.velocityX=helicopterSprite.velocityX-1;
+	helicopterSprite.velocityX=helicopterSprite.velocityX;
 	//packageSprite.x= helicopterSprite.position.x 
   //packageSprite.y= helicopterSprite.position.y 
 }
